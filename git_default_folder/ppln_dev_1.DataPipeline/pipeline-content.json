@@ -1,0 +1,28 @@
+{
+  "properties": {
+    "activities": [
+      {
+        "type": "TridentNotebook",
+        "typeProperties": {
+          "notebookId": "dc5a8694-c7bd-449f-a26b-de3fb5e8347c",
+          "workspaceId": "00000000-0000-0000-0000-000000000000",
+          "parameters": {
+            "defaultLakehouseName": {
+              "value": "lh_dev",
+              "type": "string"
+            }
+          }
+        },
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureInput": false,
+          "secureOutput": false
+        },
+        "name": "create_new_brach",
+        "dependsOn": []
+      }
+    ]
+  }
+}
